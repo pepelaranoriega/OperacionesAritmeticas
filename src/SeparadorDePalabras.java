@@ -6,10 +6,9 @@ public class SeparadorDePalabras {
 
         System.out.println("Ingresa una frase: ");
         frase = sc.nextLine();
-        String[] palabras = frase.split(" ");
-        for (String palabra : palabras) {
-            System.out.println(palabra);
+        String[] palabras = frase.split(" "); //Creamos un array con las palabras ingresadas en la variable frase.
+        for (String palabra : palabras) { //Cada elemento del array guárdalo en palabra.
+            System.out.println(palabra); //Imprime cada palabra.
         }
-
     }
 }

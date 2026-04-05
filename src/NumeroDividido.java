@@ -5,9 +5,9 @@ public class NumeroDividido {
         Scanner leer = new Scanner(System.in);
         System.out.println("Ingresa un número: ");
         numero = leer.nextInt();
-        if (numero%2==0) {
+        if (numero%2==0) { //Si número ingresado es divisible entre 2 entonces:
             System.out.println("El número es divisible entre 2");
-        } else {
+        } else { //De lo contrario
             System.out.println("El número no es divisible entre 2");
         }
     }
